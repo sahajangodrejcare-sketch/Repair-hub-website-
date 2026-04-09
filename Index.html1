@@ -1,0 +1,70 @@
+<!DOCTYPE html><html>
+<head>
+  <title>Repair Hub Appliance Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- SEO Meta Tags -->  <meta name="description" content="AC & Fridge Repair in Barasat, Madhyamgram, New Barrackpore. Fast & affordable service. Call now 9804567074">
+  <meta name="keywords" content="AC repair Barasat, fridge repair Madhyamgram, AC service near me, refrigerator repair">
+  <meta name="author" content="Repair Hub Appliance Services">  <style>
+    body {font-family: Arial; margin:0; background:#f4f7fb;}
+    header {background:#0b63f6; color:white; padding:20px; text-align:center;}
+    h1 {margin:0;}
+    .container {padding:20px;}
+    .card {background:white; padding:15px; margin:10px 0; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);} 
+    .btn {padding:12px 20px; border:none; border-radius:8px; cursor:pointer; margin:5px;}
+    .btn-call {background:#0b63f6; color:white;}
+    .btn-wa {background:#25D366; color:white;}
+    .hero {text-align:center; padding:30px 10px;}
+    footer {background:#222; color:white; text-align:center; padding:10px; margin-top:20px;}
+    input, textarea {width:100%; padding:10px; margin:5px 0; border-radius:6px; border:1px solid #ccc;}
+    iframe {width:100%; height:250px; border:0; border-radius:10px;}
+    .review {background:#fff; padding:10px; border-radius:10px; margin:8px 0; box-shadow:0 2px 6px rgba(0,0,0,0.1);} 
+  </style></head><body><header>
+  <h1>Repair Hub Appliance Services</h1>
+  <p>Professional AC & Fridge Repair</p>
+</header><div class="hero">
+  <h2>Fast & Trusted Repair at Your Doorstep</h2>
+  <p>Serving Barasat, Madhyamgram & New Barrackpore</p>
+  <a href="tel:9804567074"><button class="btn btn-call">📞 Call Now</button></a>
+  <a href="https://wa.me/919804567074"><button class="btn btn-wa">💬 WhatsApp</button></a>
+</div><div class="container"><div class="card">
+  <h3>❄️ AC Repair</h3>
+  <p>Gas charging, installation, cooling problem fix</p>
+</div><div class="card">
+  <h3>🔧 Fridge Repair</h3>
+  <p>Compressor repair, cooling issue, leakage fix</p>
+</div><div class="card">
+  <h3>⚡ Why Choose Us?</h3>
+  <p>✔ Fast Service<br>✔ Affordable Price<br>✔ Experienced Technician</p>
+</div><!-- Booking Form with WhatsApp Auto Message --><div class="card">
+  <h3>📝 Book Service</h3>
+  <input id="name" placeholder="Your Name">
+  <input id="phone" placeholder="Phone Number">
+  <textarea id="problem" placeholder="Describe your problem"></textarea>
+  <button class="btn btn-call" onclick="sendWhatsApp()">Submit</button>
+</div><div class="card">
+  <h3>⭐ Customer Reviews</h3>
+  <div class="review">"Very fast service, AC cooling problem solved quickly" ⭐⭐⭐⭐⭐</div>
+  <div class="review">"Fridge repair done at low cost, highly recommended" ⭐⭐⭐⭐⭐</div>
+  <div class="review">"Good behavior and expert technician" ⭐⭐⭐⭐</div>
+</div><div class="card">
+  <h3>📍 Our Location</h3>
+  <iframe src="https://maps.google.com/maps?q=Barasat%20Madhyamgram%20New%20Barrackpore&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</div><div class="card">
+  <h3>📞 Contact</h3>
+  <p>Phone: 9804567074</p>
+  <p>Area: Barasat, Madhyamgram, New Barrackpore</p>
+</div></div><footer>
+  <p>© 2026 Repair Hub Appliance Services</p>
+</footer><!-- WhatsApp Script --><script>
+function sendWhatsApp() {
+  var name = document.getElementById('name').value;
+  var phone = document.getElementById('phone').value;
+  var problem = document.getElementById('problem').value;
+
+  var message = `New Service Request:%0AName: ${name}%0APhone: ${phone}%0AProblem: ${problem}`;
+
+  var url = "https://wa.me/919804567074?text=" + message;
+
+  window.open(url, '_blank');
+}
+</script></body>
+</html>
